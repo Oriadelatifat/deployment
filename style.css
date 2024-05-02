@@ -1,0 +1,102 @@
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    body{
+      background-color: hsl(30, 38%, 92%);
+    }
+    .container{
+      display: flex;
+      justify-content: center;
+      margin-top: 100px;
+      width: auto;
+      font-family: "Montserrat", sans-serif;
+    }
+    #content{
+      font-size: 15px;
+      width: 280px;
+      background-color: white;
+      font-weight: 500;
+      text-align: justify;
+      padding-left: 30px;
+      border-radius: 0px 10px 10px 0px;
+    }
+    .image{
+      display: block;
+      width: 300px;
+      border-radius: 10px 0px 0px 10px;
+    }
+    .bold{ 
+      font-family: "Fraunces", serif;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 30px;
+      margin-top: 10px;
+    }
+    .perfume{
+        text-transform: uppercase;
+        letter-spacing: 6px;
+        padding-top: 20px;
+        color:hsl(228, 12%, 48%);
+    }
+    .floral{
+        line-height: 25px;
+        color:hsl(228, 12%, 48%);   
+    }
+    .amount{
+        font-family: fraunces;
+        color: hsl(158, 36%, 37%);
+        font-weight: 700;
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    .Add{
+        background-color:hsl(158, 36%, 37%);
+        color:white; 
+        text-align: center;
+        border-radius: 5px;
+        margin-right: 20px;
+        padding: 10px;
+        margin-bottom: 30px;
+    }
+    .div{
+      display: flex;
+    }
+    .cancel{
+      text-decoration: line-through;
+      padding: 25px;
+      margin-top: -5px;
+    }
+    .Add:hover {
+      background-color: hsl(157, 91%, 5%);
+      cursor: pointer;
+    }
+  
+    @media screen and (max-width:376px) {
+      .container{
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        padding-top: 10px;
+      }
+      .image{
+        display: none;
+      }
+      .mobile{
+        display: block;
+        max-width: 330px;
+        border-radius: 10px 10px 0px 0px;
+      }
+      #content{
+        width: 300px;
+        height: 380px;
+        border-radius: 0px 0px 10px 10px;
+      }
+      .floral{margin-top: -20px;}
+      .perfume{margin-top: -5px;}
+      .Add{margin-top: -20px;}
+      } 
+    @media screen and (min-width:376px)
+    {
+      .image{display: block;}
+      .mobile{display: none;}
+    }
+  
